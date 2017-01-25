@@ -1,0 +1,18 @@
+body {
+	background-color: black;
+	padding: 10px;
+}
+
+h1 {
+	color: gray;
+	text-align: left;
+}
+
+p{
+	color: gray;
+	text-align: left;
+}
+
+li {
+	color: white;
+}
