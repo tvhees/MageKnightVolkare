@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mage Knight - Volkare Simulator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Volkare setup and behaviour for Mage Knight: The Lost Legion scenarios</h1>
+    
+    <div id="parameters">
+        <p>Scenario:<br>
+            <select id="scenario">
+                <option value="vReturn">Volkare's Return</option>
+                <option value="vQuest">Volkare's Quest</option>
+            </select>
+        </p>
+        <p>Players:<br>
+            <select id="players">
+                <option value="solo">Solo</option>
+                <option value="two">Two</option>
+                <option value="three">Three</option>
+                <option value="four">Four</option>
+            </select>
+        </p>
+        <p>Difficulty:<br>
+            <select id="difficulty">
+                <option value="daring">Daring</option>
+                <option value="heroic">Heroic</option>
+                <option value="legendary">Legendary</option>
+            </select>
+        </p>
+        <p>Race speed:<br>
+            <select id="race">
+                <option value="fair">Fair</option>
+                <option value="tight">Tight</option>
+                <option value="thrilling">Thrilling</option>
+            </select>
+        </p>
+        <p>
+            <button id="newdeck">Create Deck</button>
+        </p>
+    </div>
+    <div id="behaviour">
+        <div id="levels"></div>
+        <button id="draw">Draw Card</button>
+        <div id="cards"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+    <script type="text/javascript" src="volkareDeck.js"></script>
+    <script type="text/javascript">OnPageLoad();</script>
+</body>
+</html>
