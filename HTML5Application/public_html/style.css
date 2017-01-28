@@ -1,0 +1,79 @@
+body {
+        background-image: url("ParchmentBG.png");
+	padding: 10px;
+        font-family: Arial;
+}
+
+h1, h2 {
+	color: black;
+	text-align: left;
+}
+
+li {
+	color: white;
+}
+
+button, select {
+    width: 100%;
+}
+
+#parameters, #behaviour {
+    height: 350px;
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+    border: 5px solid black;
+    background-color: rgba(255,125,0,0.2);
+    text-align: center;
+    float: left;
+}
+
+#parameters {
+    width: 15%;
+}
+
+#levels {
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 2px dashed black;
+    margin: 1%;
+}
+
+#behaviour {
+    width: 30%;
+}
+
+#draw {
+    float: top;
+    width: 100%
+}
+
+#cards {
+    height:200px;
+    overflow-y: auto;
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.white {
+    color: white;
+}
+
+.spell {
+    font-weight: bold;
+}
+
+.wound {
+    font-style: italic;
+}
