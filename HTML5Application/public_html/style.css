@@ -4,9 +4,9 @@ body {
         font-family: Arial;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	color: black;
-	text-align: left;
+	text-align: center;
 }
 
 li {
@@ -32,15 +32,24 @@ button, select {
     width: 15%;
 }
 
-#levels {
-    box-sizing: border-box;
-    width: 100%;
-    border-bottom: 2px dashed black;
-    margin: 1%;
-}
-
 #behaviour {
     width: 30%;
+    overflow: hidden;
+}
+
+#setup {
+    box-sizing: border-box;
+    height: 130px;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed black;
+    overflow: hidden;
+}
+
+#levels, #tiles {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
 }
 
 #draw {
@@ -49,8 +58,6 @@ button, select {
 }
 
 #cards {
-    height:200px;
-    overflow-y: auto;
     color: black;
 }
 

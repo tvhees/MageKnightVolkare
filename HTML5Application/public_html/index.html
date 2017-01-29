@@ -5,8 +5,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Volkare setup and behaviour for Mage Knight: The Lost Legion scenarios</h1>
-    
     <div id="parameters">
         <p>Scenario:<br>
             <select id="scenario">
@@ -37,11 +35,15 @@
             </select>
         </p>
         <p>
-            <button id="newdeck">Create Deck</button>
+            <button id="newdeck">Create Scenario</button>
         </p>
     </div>
     <div id="behaviour">
-        <div id="levels"></div>
+        <div id="setup">
+            <div id="setuptext"></div>
+            <div id="levels"></div>
+            <div id="tiles"></div>
+        </div>
         <button id="draw">Draw Card</button>
         <div id="cards"></div>
     </div>
